@@ -1,0 +1,86 @@
+/* CSS */
+body{
+	width:100%;
+	height:100%;
+	background:url("beer_background.jpg") no-repeat;
+	background-size:cover;
+}
+
+.wrapper{
+	width:100%;
+	height:100%;
+	margin: auto;
+}
+
+.leftcontainer{
+	width:50%;
+	height:100%;
+	float:left;
+	overflow-x:auto;
+}
+.rightcontainer{
+	width:50%;
+	height:100%;
+	float:left;
+	overflow : auto;
+}
+.rightHeading{
+	text-align:center;
+}
+
+/* For bar graph */
+.bar {
+  fill: #994d00;
+  padding-bottom:0px;
+}
+
+.bar:hover {
+  fill: #ff8000;
+  cursor:pointer;
+}
+
+.text {
+  fill: white;
+  font-family: sans-serif;
+}
+
+/* For comment box */
+.comment_box {
+	margin: 15px;
+   display: inline-block;
+   position: relative;
+	width: 40%;
+	height: auto;
+}
+.no_comment_box{
+	width:50%;
+    margin: 40% auto;
+    text-align: center; 
+}
+.comment_box,.no_comment_box {	
+	background-color: lightyellow;
+	border: 2px solid #666;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+}
+
+.comment_name_header{
+	padding : 5px 0px;
+	text-align: center;
+	background-color : #d5d5d5;
+	width:100%;
+	border-top-left-radius :15px; 
+	border-top-right-radius :15px; 
+}
+
+.comment_text{
+   padding: 1em;
+   text-align: left;
+   line-height: 1.5em;
+}
+.comment_text p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
